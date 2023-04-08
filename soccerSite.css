@@ -1,8 +1,14 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 :root {
   --team-color: #6CABDD;
 }
 
 .nav-bar {
+  margin: 0px auto;
   position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11,18 +17,32 @@
   background-color: var(--team-color);
   color: white;
   font-family: 'Sofia Sans Semi Condensed', sans-serif;
-  font-size: 30px;
+  font-size: 35px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .nav-bar .logo {
-  width: 100px;
+  width: 110px;
   margin-left: 70px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .nav-bar .nav-pages {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: 100px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }
 
 .nav-bar .nav-pages span {

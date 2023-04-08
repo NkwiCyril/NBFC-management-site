@@ -1,21 +1,30 @@
+*{
+    box-sizing: border-box;
+}
 :root{
     --team-color: #6CABDD;
 }
-
 .nav-bar{
+    margin: 0px auto;
     position: fixed;
     display: flex;
     width: 100%;
     background-color: var(--team-color);
     color: white;
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
-    font-size: 30px;
+    font-size: 35px;
+    justify-content: center;
     .logo{
-        width: 100px;
+        width: 110px;
         margin-left: 70px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: space-evenly;
     }
     .nav-pages{
         display: flex;
+        margin-left: 100px;
+        justify-content: end;
         span{
             padding: 0px 10px;
             &:hover{
