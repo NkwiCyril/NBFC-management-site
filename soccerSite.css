@@ -1,1 +1,32 @@
-/* No CSS *//*# sourceMappingURL=soccerSite.css.map */
+:root {
+  --team-color: #6CABDD;
+}
+
+.nav-bar {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: var(--team-color);
+  color: white;
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+  font-size: 30px;
+}
+
+.nav-bar .logo {
+  width: 100px;
+  margin-left: 70px;
+}
+
+.nav-bar .nav-pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 0;
+}
+
+.nav-bar .nav-pages span {
+  padding: 0px 10px;
+}
+/*# sourceMappingURL=soccerSite.css.map */

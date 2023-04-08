@@ -1,0 +1,25 @@
+:root{
+    --team-color: #6CABDD;
+}
+
+.nav-bar{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background-color: var(--team-color);
+    color: white;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-size: 30px;
+    .logo{
+        width: 100px;
+        margin-left: 70px;
+    }
+    .nav-pages{
+        display: flex;
+        margin-right: 0;
+        span{
+            padding: 0px 10px;
+            
+        }
+    }
+}
