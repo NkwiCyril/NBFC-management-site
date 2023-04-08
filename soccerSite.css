@@ -23,10 +23,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 0;
 }
 
 .nav-bar .nav-pages span {
   padding: 0px 10px;
+}
+
+.nav-bar .nav-pages span:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=soccerSite.css.map */

@@ -18,6 +18,10 @@
         display: flex;
         span{
             padding: 0px 10px;
+            &:hover{
+                text-decoration: underline;
+            }
+            
             
         }
     }
