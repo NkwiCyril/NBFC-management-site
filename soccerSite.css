@@ -8,6 +8,7 @@
 :root {
   --team-color: #6CABDD;
   --default-font-color: rgb(4, 31, 72);
+  --new-buea: red;
 }
 
 .nav-bar {
@@ -24,6 +25,20 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-radius: 0 0 30px 30px;
+}
+
+.nav-bar .logo {
+  width: 110px;
+  margin-left: -70px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 10px 0px;
 }
 
 .nav-bar .nav-pages {
@@ -37,6 +52,7 @@
   list-style: none;
   margin: auto 30px;
   color: var(--default-font-color);
+  letter-spacing: 0px;
 }
 
 .nav-bar .nav-pages li {
@@ -47,16 +63,29 @@
   text-decoration: underline;
 }
 
-.logo {
-  width: 110px;
-  margin-left: 70px;
-  border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  padding: 10px 0px;
+.nav-bar .nav-pages li a {
+  text-decoration: none;
+  color: var(--default-font-color);
+}
+
+.nav-bar .login-author {
+  background-color: var(--default-font-color);
+  margin: 20px;
+}
+
+.nav-bar .login {
+  width: 100px;
+  height: 50px;
+  background-color: var(--team-color);
+  color: var(--default-font-color);
+  font-size: large;
+  margin: auto 0;
+  border: var(--default-font-color) solid 2px;
+  border-radius: 25px;
+}
+
+.nav-bar .login:hover {
+  background-color: var(--default-font-color);
+  color: white;
 }
 /*# sourceMappingURL=soccerSite.css.map */
