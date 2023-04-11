@@ -1,10 +1,13 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 :root {
   --team-color: #6CABDD;
+  --default-font-color: rgb(4, 31, 72);
 }
 
 .nav-bar {
@@ -16,23 +19,11 @@
   width: 100%;
   background-color: var(--team-color);
   color: white;
-  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+  font-family: 'Sofia Sans Semi Condensed', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 35px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.nav-bar .logo {
-  width: 110px;
-  margin-left: 70px;
-  border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
 }
 
 .nav-bar .nav-pages {
@@ -43,13 +34,29 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
+  list-style: none;
+  margin: auto 30px;
+  color: var(--default-font-color);
 }
 
-.nav-bar .nav-pages span {
+.nav-bar .nav-pages li {
   padding: 0px 10px;
 }
 
-.nav-bar .nav-pages span:hover {
+.nav-bar .nav-pages li:hover {
   text-decoration: underline;
+}
+
+.logo {
+  width: 110px;
+  margin-left: 70px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 10px 0px;
 }
 /*# sourceMappingURL=soccerSite.css.map */

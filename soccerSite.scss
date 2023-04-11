@@ -1,8 +1,11 @@
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 :root{
     --team-color: #6CABDD;
+    --default-font-color: rgb(4, 31, 72);
 }
 .nav-bar{
     margin: 0px auto;
@@ -11,27 +14,30 @@
     width: 100%;
     background-color: var(--team-color);
     color: white;
-    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-family: 'Sofia Sans Semi Condensed', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 35px;
     justify-content: center;
-    .logo{
-        width: 110px;
-        margin-left: 70px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: space-evenly;
-    }
+    
     .nav-pages{
         display: flex;
         margin-left: 100px;
         justify-content: end;
-        span{
+        list-style: none;
+        margin: auto 30px;
+        color: var(--default-font-color);
+        li{
             padding: 0px 10px;
             &:hover{
                 text-decoration: underline;
             }
-            
-            
         }
     }
+}
+.logo{
+    width: 110px;
+    margin-left: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px;
 }

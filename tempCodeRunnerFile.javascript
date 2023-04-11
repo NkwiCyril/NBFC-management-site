@@ -1,19 +1,3 @@
-const date = {
-    months: [
-        "January",
-        "February",
-        "March",
-        "April",
-        "May",
-        "June",
-        "July",
-        "August",
-        "September",
-        "October",
-        "November",
-        "December"
-    ]
-        
-}
-
-console.log(date.months[11])
+let sent = "There are so many cars in the world";
+let match = /[aeiou]/gi;
+console.log(sent.match(match))
