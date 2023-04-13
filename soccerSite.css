@@ -11,6 +11,7 @@
   --new-buea: red;
 }
 
+/*============== Navigation section ================*/
 .nav-bar {
   margin: 0px auto;
   position: fixed;
@@ -73,19 +74,32 @@
   margin: 20px;
 }
 
-.nav-bar .login {
+.nav-bar form {
+  margin: auto 0;
+}
+
+.nav-bar form .login {
   width: 100px;
   height: 50px;
   background-color: var(--team-color);
   color: var(--default-font-color);
   font-size: large;
-  margin: auto 0;
   border: var(--default-font-color) solid 2px;
   border-radius: 25px;
 }
 
-.nav-bar .login:hover {
+.nav-bar form .login:hover {
   background-color: var(--default-font-color);
   color: white;
+}
+
+/*================= LOGIN SECTION ====================*/
+.login-header {
+  width: 100%;
+}
+
+.login-header .red {
+  background-color: #d86666;
+  height: 150px;
 }
 /*# sourceMappingURL=soccerSite.css.map */

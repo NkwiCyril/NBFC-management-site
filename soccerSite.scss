@@ -8,6 +8,7 @@
     --default-font-color: rgb(4, 31, 72);
     --new-buea: red;
 }
+/*============== Navigation section ================*/
 .nav-bar{
     margin: 0px auto;
     position: fixed;
@@ -19,6 +20,7 @@
     font-size: 35px;
     justify-content: center;
     border-radius: 0 0 30px 30px;
+    // team logo and navigation bar to access different content 
     .logo{
         width: 110px;
         margin-left: -70px;
@@ -46,23 +48,38 @@
             }
         }
     }
+    // login and author logo
     .login-author{
         background-color: var(--default-font-color);
         margin: 20px;
         
     }
-    .login{
+    form{
+        margin: auto 0;
+        .login{
+            &:hover{
+                background-color: var(--default-font-color);
+                color: white;
+            }
         width: 100px;
         height: 50px;
         background-color: var(--team-color);
         color: var(--default-font-color);
         font-size: large;
-        margin: auto 0;
         border: var(--default-font-color) solid 2px;
         border-radius: 25px;
-        &:hover{
-            background-color: var(--default-font-color);
-            color: white;
-        }
+        } 
+    }
+}
+
+
+/*================= LOGIN SECTION ====================*/
+
+.login-header{
+    width: 100%;
+    .red{
+        background-color: rgb(216, 102, 102);
+        height: 150px;
+        
     }
 }
