@@ -4,9 +4,9 @@
     margin: 0;
 }
 :root{
-    --team-color: #6CABDD;
-    --default-font-color: rgb(4, 31, 72);
-    --new-buea: red;
+    --team-color: brown;
+    --default-font-color: white;
+    --hover-color:rgb(3, 17, 38);
 }
 /*============== Navigation section ================*/
 .nav-bar{
@@ -52,19 +52,19 @@
     .login-author{
         background-color: var(--default-font-color);
         margin: 20px;
-        
     }
     form{
         margin: auto 0;
         .login{
             &:hover{
-                background-color: var(--default-font-color);
-                color: white;
+                background-color: var(--hover-color);
+                color: var(--default-font-color);
             }
         width: 100px;
         height: 50px;
         background-color: var(--team-color);
         color: var(--default-font-color);
+        font-family: 'Sofia Sans Semi Condensed', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: large;
         border: var(--default-font-color) solid 2px;
         border-radius: 25px;
@@ -77,9 +77,27 @@
 
 .login-header{
     width: 100%;
+    .blue{
+        height: 110px;
+        background-color: var(--team-color);
+            .logo{
+                display: flex;
+                justify-content: center;
+                padding-top: 5px;
+                img{
+                    width: 100px;
+                    border-radius: 50%;
+                }
+            }
+            .fa{
+                width: 300px;
+            }
+    }
     .red{
-        background-color: rgb(216, 102, 102);
-        height: 150px;
-        
+        height: 500px;
+        img{
+            max-width: 100%;
+            object-fit: contain;
+        }
     }
 }
