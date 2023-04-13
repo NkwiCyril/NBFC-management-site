@@ -6,9 +6,9 @@
 }
 
 :root {
-  --team-color: #6CABDD;
-  --default-font-color: rgb(4, 31, 72);
-  --new-buea: red;
+  --team-color: brown;
+  --default-font-color: white;
+  --hover-color:rgb(3, 17, 38);
 }
 
 /*============== Navigation section ================*/
@@ -83,14 +83,15 @@
   height: 50px;
   background-color: var(--team-color);
   color: var(--default-font-color);
+  font-family: 'Sofia Sans Semi Condensed', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: large;
   border: var(--default-font-color) solid 2px;
   border-radius: 25px;
 }
 
 .nav-bar form .login:hover {
-  background-color: var(--default-font-color);
-  color: white;
+  background-color: var(--hover-color);
+  color: var(--default-font-color);
 }
 
 /*================= LOGIN SECTION ====================*/
@@ -98,8 +99,37 @@
   width: 100%;
 }
 
+.login-header .blue {
+  height: 110px;
+  background-color: var(--team-color);
+}
+
+.login-header .blue .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 5px;
+}
+
+.login-header .blue .logo img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.login-header .blue .fa {
+  width: 300px;
+}
+
 .login-header .red {
-  background-color: #d86666;
-  height: 150px;
+  height: 500px;
+}
+
+.login-header .red img {
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 /*# sourceMappingURL=soccerSite.css.map */
