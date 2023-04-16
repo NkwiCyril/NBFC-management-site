@@ -115,12 +115,12 @@
   width: 100%;
 }
 
-.login-header .blue {
-  height: 110px;
+.login-header .login-section1 {
+  height: 100px;
   background-color: var(--team-color);
 }
 
-.login-header .blue .welcome {
+.login-header .login-section1 .welcome {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -133,16 +133,17 @@
   margin-top: -85px;
 }
 
-.login-header .blue .welcome h1 {
+.login-header .login-section1 .welcome h1 {
   color: var(--color3);
   font-family: 'Sofia Sans Semi Condensed';
   font-weight: 400;
   letter-spacing: 0.10rem;
-  font-size: 50px;
+  font-size: 40px;
   padding: 20px;
+  text-align: center;
 }
 
-.login-header .red {
+.login-header .login-section2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -154,7 +155,7 @@
           justify-content: center;
 }
 
-.login-header .red img {
+.login-header .login-section2 img {
   width: 100%;
   height: 600px;
   -o-object-fit: cover;
@@ -165,12 +166,12 @@
   transition: all .4s ease-in-out;
 }
 
-.login-header .red img:hover {
+.login-header .login-section2 img:hover {
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
 }
 
-.login-header .red .loginBox {
+.login-header .login-section2 .loginBox {
   font-family: var(--font-family);
   font-size: 20px;
   color: var(--color3);
@@ -188,7 +189,7 @@
   padding: 70px 30px;
 }
 
-.login-header .red .loginBox .Logo {
+.login-header .login-section2 .loginBox .Logo {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -199,36 +200,52 @@
           filter: grayscale(0);
 }
 
-.login-header .red .loginBox h1 {
+.login-header .login-section2 .loginBox h1 {
   margin: 0;
   padding: 0 0 20px;
   text-align: center;
   font-size: 35px;
 }
 
-.login-header .red .loginBox p {
+.login-header .login-section2 .loginBox p {
   margin: 0;
   padding: 0;
   font-weight: bold;
   font-size: 25px;
 }
 
-.login-header .red .loginBox input {
+.login-header .login-section2 .loginBox input {
   width: 100%;
   margin-bottom: 20px;
   color: var(--color3);
-  font-size: 15px;
+  font-size: 19px;
   font-family: var(--font-family);
 }
 
-.login-header .red .loginBox input[type="text"], .login-header .red .loginBox input[type="password"] {
+.login-header .login-section2 .loginBox input[type="text"], .login-header .login-section2 .loginBox input[type="password"] {
   border: none;
   border-bottom: 1px solid var(--color3);
-  background: transparent;
+  background: black;
   outline: none;
 }
 
-.login-header .red .loginBox input[type="submit"] {
+.login-header .login-section2 .loginBox input[type="text"]::-webkit-input-placeholder, .login-header .login-section2 .loginBox input[type="password"]::-webkit-input-placeholder {
+  font-size: 17px;
+}
+
+.login-header .login-section2 .loginBox input[type="text"]:-ms-input-placeholder, .login-header .login-section2 .loginBox input[type="password"]:-ms-input-placeholder {
+  font-size: 17px;
+}
+
+.login-header .login-section2 .loginBox input[type="text"]::-ms-input-placeholder, .login-header .login-section2 .loginBox input[type="password"]::-ms-input-placeholder {
+  font-size: 17px;
+}
+
+.login-header .login-section2 .loginBox input[type="text"]::placeholder, .login-header .login-section2 .loginBox input[type="password"]::placeholder {
+  font-size: 17px;
+}
+
+.login-header .login-section2 .loginBox input[type="submit"] {
   border: none;
   width: 50%;
   outline: none;
@@ -240,7 +257,7 @@
   margin-left: 80px;
 }
 
-.login-header .red .loginBox input[type="submit"]:hover {
+.login-header .login-section2 .loginBox input[type="submit"]:hover {
   cursor: pointer;
   background-color: var(--color3);
   color: var(--hover-color);
@@ -248,15 +265,15 @@
   transition: var(--transition);
 }
 
-.login-header .red .loginBox a {
+.login-header .login-section2 .loginBox a {
   text-decoration: none;
   display: block;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 20px;
   color: darkgrey;
 }
 
-.login-header .red .loginBox a:hover {
+.login-header .login-section2 .loginBox a:hover {
   color: var(--team-color);
 }
 /*# sourceMappingURL=soccerSite.css.map */
