@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="soccerSite.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@200;400;500&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@200;400;500&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Soccer Site Login Page</title>
 </head>
@@ -33,19 +33,31 @@
               " id="go-back"></i>
             </span>
             <script src="backend.js"></script>
-            <div class="logo">
-                <img src="images/new buea logo.jpg" alt="">
+            <div class="welcome">
+                <!-- <img src="images/new buea logo.jpg" alt=""> -->
+                <h1>Welcome to New Buea Football Club.</h1>
             </div>
         </div>
         <div class="red">
-            <img src="" alt="">
+            <img src="images/newBuea-manU.jpg" alt="">
+            <div class="loginBox">
+                <img src="images/new buea logo.jpg" alt="New Buea FC logo" class="Logo">
+                <h1>Login Here!</h1>
+                <form action="post">
+                    <p>Username</p>
+                    <input type="text" name="" placeholder="Enter Username">
+                    <p>Password</p>
+                    <input type="password" name="" placeholder="Enter password">
+                    <input type="submit" name="" value="login">
+                    <a href="#">Lost your password?</a>
+                    <a href="signUp.html">Don't have an account? <span>Create one</span></a>
+                </form>
+            </div>
         </div>
     </div>
 
     <!--====================================================================-->
     
-    <form action="auth-success.html" method="get">
-            <label for="login"></label>
-        </form>
+    
 </body>
 </html>
