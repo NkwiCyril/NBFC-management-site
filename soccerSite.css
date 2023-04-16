@@ -132,11 +132,9 @@
 
 .login-header .red {
   height: 500px;
-}
-
-.login-header .red img {
   max-width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  background: url(images/);
+  background-size: cover;
+  background-position: center;
 }
 /*# sourceMappingURL=soccerSite.css.map */

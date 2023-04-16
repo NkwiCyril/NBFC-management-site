@@ -106,9 +106,10 @@
     }
     .red{
         height: 500px;
-        img{
-            max-width: 100%;
-            object-fit: contain;
-        }
+        max-width: 100%;
+        background: url(images/);
+        background-size: cover;
+        background-position: center;
+        
     }
 }
