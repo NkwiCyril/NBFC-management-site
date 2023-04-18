@@ -160,15 +160,10 @@
   height: 600px;
   -o-object-fit: cover;
      object-fit: cover;
-  -webkit-filter: grayscale(70%);
-          filter: grayscale(70%);
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
-}
-
-.login-header .login-section2 img:hover {
-  -webkit-filter: grayscale(0);
-          filter: grayscale(0);
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
 }
 
 .login-header .login-section2 .loginBox {
@@ -187,6 +182,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 70px 30px;
+  margin-top: 50px;
 }
 
 .login-header .login-section2 .loginBox .Logo {
@@ -275,5 +271,9 @@
 
 .login-header .login-section2 .loginBox a:hover {
   color: var(--team-color);
+}
+
+.login-header .login-section2 .loginBox a .underline {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=soccerSite.css.map */
