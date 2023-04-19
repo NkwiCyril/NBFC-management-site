@@ -1,0 +1,134 @@
+.login-section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-section2 img {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
+.login-section2 .loginBox {
+  font-family: var(--font-family);
+  font-size: 20px;
+  color: var(--color3);
+  width: 400px;
+  height: 450px;
+  background: var(--color2);
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 70px 30px;
+  margin-top: 50px;
+}
+
+.login-section2 .loginBox .Logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 145px;
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.login-section2 .loginBox h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.login-section2 .loginBox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.login-section2 .loginBox input {
+  width: 100%;
+  margin-bottom: 20px;
+  color: var(--color3);
+  font-size: 19px;
+  font-family: var(--font-family);
+}
+
+.login-section2 .loginBox input[type="text"], .login-section2 .loginBox input[type="password"] {
+  border: none;
+  border-bottom: 1px solid var(--color3);
+  background: black;
+  outline: none;
+}
+
+.login-section2 .loginBox input[type="text"]::-webkit-input-placeholder, .login-section2 .loginBox input[type="password"]::-webkit-input-placeholder {
+  font-size: 17px;
+}
+
+.login-section2 .loginBox input[type="text"]:-ms-input-placeholder, .login-section2 .loginBox input[type="password"]:-ms-input-placeholder {
+  font-size: 17px;
+}
+
+.login-section2 .loginBox input[type="text"]::-ms-input-placeholder, .login-section2 .loginBox input[type="password"]::-ms-input-placeholder {
+  font-size: 17px;
+}
+
+.login-section2 .loginBox input[type="text"]::placeholder, .login-section2 .loginBox input[type="password"]::placeholder {
+  font-size: 17px;
+}
+
+.login-section2 .loginBox input[type="submit"] {
+  border: none;
+  width: 50%;
+  outline: none;
+  height: 40px;
+  background-color: var(--team-color);
+  color: var(--color3);
+  font-size: 18px;
+  border-radius: 20px;
+  margin-left: 80px;
+}
+
+.login-section2 .loginBox input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: var(--color3);
+  color: var(--hover-color);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.login-section2 .loginBox a {
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.login-section2 .loginBox a:hover {
+  color: var(--team-color);
+}
+
+.login-section2 .loginBox a .underline {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=signUp.css.map */
