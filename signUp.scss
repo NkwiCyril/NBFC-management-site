@@ -1,3 +1,38 @@
+*{
+    box-sizing: border-box;
+    
+}
+:root{
+    --team-color: RGB(199, 1, 1);
+    --default-font-color: white;
+    --hover-color:rgb(3, 17, 38);
+    --transition: all .6s ease-in-out;
+    --color2: #000000;
+    --color3: white;
+    --font-family: 'Sofia Sans Semi Condensed';
+}
+.login-header{
+    width: 100%;
+    .login-section1{
+        height: 100px;
+        background-color: var(--team-color);
+            .welcome{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: -85px;
+                h1{
+                    color: var(--color3);
+                    font-family: 'Sofia Sans Semi Condensed';
+                    font-weight: 400;
+                    letter-spacing: 0.10rem;
+                    font-size: 40px;
+                    padding: 18px;
+                    text-align: center;    
+            }
+        }
+    }
+}
 .login-section2{
     // max-width: 100%;
     // height: 600px;
@@ -5,7 +40,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    img{
+    .team-image{
         width: 100%;
         height: 600px;
         object-fit: cover;
@@ -17,7 +52,7 @@
         font-size: 20px;
         color: var(--color3);
         width: 400px;
-        height: 450px;
+        height: 650px;
         background: var(--color2);
         border-radius: 10px;
         top: 50%;
@@ -35,13 +70,21 @@
             position: absolute;
             top: -50px;
             left: 145px;
-            filter: grayscale(0);
         }
         h1{
             margin: 0;
             padding: 0 0 20px;
             text-align: center;
             font-size: 35px;
+        }
+        .info{
+            border: var(--team-color) solid 2px;
+            border-radius: 4px;
+            width: auto;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
         }
         p{
             margin: 0;
@@ -57,7 +100,7 @@
             font-family: var(--font-family);
             
         }
-        input[type="text"],input[type="password"]{
+        input[type="email"], input[type="password"]{
             border: none;
             border-bottom: 1px solid var(--color3);
             background: black;
@@ -82,6 +125,22 @@
                 color: var(--hover-color);
                 transition: var(--transition);
              }
+        }
+        select{
+            margin: 20px 0px;
+            margin-right: 5px;
+            font-family: var(--font-family);
+            font-size: 16px;
+            background: black;
+            color: var(--color3);
+            border-radius: 5px;
+            option{
+                color: var(--color3);
+                background-color: var(--color2);
+                &:hover{
+                    background-color: var(--color3);
+                }
+            }
         }
         a{
             text-decoration: none;
