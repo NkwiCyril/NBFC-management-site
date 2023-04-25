@@ -12,7 +12,7 @@
   --transition: all .6s ease-in-out;
   --color2: #000000;
   --color3: white;
-  --font-family: 'Sofia Sans Semi Condensed';
+  --font-family: 'Sofia Sans Semi Condensed',sans-serif;
 }
 
 /*===========================
@@ -29,7 +29,7 @@
   width: 100%;
   background-color: var(--team-color);
   color: var(--color3);
-  font-family: var(--font-family), "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: var(--font-family);
   font-size: 35px;
   font-weight: 400;
   -webkit-box-pack: center;
@@ -93,7 +93,7 @@
   height: 50px;
   background-color: var(--team-color);
   color: var(--default-font-color);
-  font-family: 'Sofia Sans Semi Condensed', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: var(--font-family);
   font-size: 30PX;
   border: var(--default-font-color) solid 2px;
   border-radius: 25px;
@@ -135,7 +135,7 @@
 
 .login-header .login-section1 .welcome h1 {
   color: var(--color3);
-  font-family: 'Sofia Sans Semi Condensed';
+  font-family: var(--default-font-color);
   font-weight: 400;
   letter-spacing: 0.10rem;
   font-size: 40px;

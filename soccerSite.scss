@@ -10,7 +10,7 @@
     --transition: all .6s ease-in-out;
     --color2: #000000;
     --color3: white;
-    --font-family: 'Sofia Sans Semi Condensed';
+    --font-family: 'Sofia Sans Semi Condensed',sans-serif;
 }
 /*===========================
 *BEGINNING OF HOMEPAGE DESIGN
@@ -24,7 +24,7 @@
     width: 100%;
     background-color: var(--team-color);
     color: var(--color3);
-    font-family: var(--font-family), 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: var(--font-family);
     font-size: 35px;
     font-weight: 400;
     justify-content: center;
@@ -77,7 +77,7 @@
         height: 50px;
         background-color: var(--team-color);
         color: var(--default-font-color);
-        font-family: 'Sofia Sans Semi Condensed', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: var(--font-family);
         font-size: 30PX;
         border: var(--default-font-color) solid 2px;
         border-radius: 25px;
@@ -98,7 +98,6 @@
     .login-section1{
         height: 100px;
         background-color: var(--team-color);
-        
             .welcome{
                 display: flex;
                 justify-content: center;
@@ -106,18 +105,15 @@
                 margin-top: -85px;
                 h1{
                     color: var(--color3);
-                    font-family: 'Sofia Sans Semi Condensed';
+                    font-family: var(--default-font-color);
                     font-weight: 400;
                     letter-spacing: 0.10rem;
                     font-size: 40px;
                     padding: 18px;
-                    text-align: center;
-                    
+                    text-align: center;    
                 }
-            }
-            
-    }
-
+            }    
+        }
     //=========================== Login box with form ===================
     .login-section2{
         // max-width: 100%;

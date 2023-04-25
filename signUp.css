@@ -6,13 +6,13 @@
 }
 
 :root {
-  --team-color: RGB(199, 1, 1);
+  --team-color: rgb(199, 1, 1);
   --default-font-color: white;
   --hover-color:rgb(3, 17, 38);
   --transition: all .6s ease-in-out;
   --color2: #000000;
   --color3: white;
-  --font-family: 'Sofia Sans Semi Condensed';
+  --font-family: 'Sofia Sans Semi Condensed',sans-serif;
 }
 
 .login-header {
@@ -39,7 +39,7 @@
 
 .login-header .login-section1 .welcome h1 {
   color: var(--color3);
-  font-family: 'Sofia Sans Semi Condensed';
+  font-family: var(--font-family);
   font-weight: 400;
   letter-spacing: 0.10rem;
   font-size: 40px;
@@ -109,7 +109,7 @@
   border: var(--team-color) solid 2px;
   border-radius: 4px;
   width: auto;
-  height: 30px;
+  height: 45px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -117,6 +117,16 @@
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 10px;
+}
+
+.login-section2 .loginBox .info .design {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: var(--team-color);
+  width: 10px;
+  height: 45px;
+  margin-right: 2px;
 }
 
 .login-section2 .loginBox p {
