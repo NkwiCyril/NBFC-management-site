@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --team-color: rgb(199, 1, 1);
+    --default-font-color: white;
+    --hover-color:rgb(3, 17, 38);
+    --transition: all .6s ease-in-out;
+    --color2: #000000;
+    --color3: white;
+    --font-family: 'Sofia Sans Semi Condensed',sans-serif;
+}
+.login-header{
+    width: 100%;
+    .login-section1{
+        height: 110px;
+        background-color: var(--team-color);
+            .welcome{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: -85px;
+                img{
+                    border-radius: 50%;
+                    width: 99px;
+                    
+
+                }
+        }
+    }
+}
