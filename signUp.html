@@ -31,6 +31,7 @@
               display: flex;
               align-items: center;
               justify-content: center;
+              cursor: pointer;
               " id="go-back"></i>
             </span>
             <script src="switch.js"></script>
@@ -54,7 +55,7 @@
                     <p>* Date of Birth</p>
                     <i class=""></i>
                     <label for="day">Day: </label>
-                    <select name="day" id="day" title="Day">
+                    <select name="day" id="day" title="Day" data-dropup-auto="false" required>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -88,7 +89,8 @@
                         <option value="31">31</option>
                     </select>
                     <label for="month">Month: </label>
-                    <select name="month" id="month">
+                    <select name="month" id="month" required>
+                        <option value="hide" disabled>Month</option>
                         <option value="january">January</option>
                         <option value="february">February</option>
                         <option value="march">March</option>
@@ -102,7 +104,7 @@
                         <option value="december">December</option>
                     </select>
                     <label for="year">Year: </label>
-                    <select name="year" id="year">
+                    <select name="year" id="year" required>
 
                     </select>
                     <p>* Password</p>

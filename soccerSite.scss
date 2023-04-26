@@ -105,9 +105,8 @@
                 margin-top: -85px;
                 h1{
                     color: var(--color3);
-                    font-family: var(--default-font-color);
+                    font-family: var(--font-family);
                     font-weight: 400;
-                    letter-spacing: 0.10rem;
                     font-size: 40px;
                     padding: 18px;
                     text-align: center;    
@@ -159,6 +158,7 @@
                 padding: 0 0 20px;
                 text-align: center;
                 font-size: 35px;
+                
             }
             p{
                 margin: 0;

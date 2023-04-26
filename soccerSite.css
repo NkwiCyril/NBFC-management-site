@@ -135,9 +135,8 @@
 
 .login-header .login-section1 .welcome h1 {
   color: var(--color3);
-  font-family: var(--default-font-color);
+  font-family: var(--font-family);
   font-weight: 400;
-  letter-spacing: 0.10rem;
   font-size: 40px;
   padding: 18px;
   text-align: center;

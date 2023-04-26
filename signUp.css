@@ -200,6 +200,7 @@
 .login-section2 .loginBox select option {
   color: var(--color3);
   background-color: var(--color2);
+  font-size: 16px;
 }
 
 .login-section2 .loginBox select option:hover {
