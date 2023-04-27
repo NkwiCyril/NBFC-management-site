@@ -17,6 +17,7 @@
 
 .login-header {
   width: 100%;
+  position: fixed;
 }
 
 .login-header .login-section1 {
@@ -86,7 +87,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 70px 30px;
-  margin-top: 50px;
+  margin-top: 75px;
 }
 
 .login-section2 .loginBox .Logo {

@@ -113,6 +113,7 @@
 /*================= BEGINNING OF LOGIN PAGE: REGISTER AND SIGN UP FUNCTIONALITIES ====================*/
 .login-header {
   width: 100%;
+  position: fixed;
 }
 
 .login-header .login-section1 {

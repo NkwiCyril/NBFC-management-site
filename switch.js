@@ -2,7 +2,7 @@ document.getElementById("go-back").addEventListener("click" ,() =>{
     history.back();
 })
 const allSections = document.querySelector('.player-role');
-const sectBtn = document.querySelectorAll('.control');
+const sectBtn = document.querySelectorAll('.navigation');
 const sections = document.querySelectorAll('.section');
 const sectBtns = document.querySelectorAll('.category');
 

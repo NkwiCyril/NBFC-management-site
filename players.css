@@ -9,7 +9,7 @@
   --team-color: rgb(199, 1, 1);
   --default-font-color: white;
   --hover-color:rgb(3, 17, 38);
-  --transition: all .6s ease-in-out;
+  --transition: all .4s ease-in-out;
   --color2: #000000;
   --color3: white;
   --font-family: 'Sofia Sans Semi Condensed',sans-serif;
@@ -52,13 +52,25 @@
           justify-content: center;
 }
 
+/*============================================== PLAYER CATEGORIES =======================================*/
+/*====================================HEADER SECTION CONTAINING THE NAVIGATION ===========================*/
 .categories {
-  height: 300px;
+  height: 220px;
   max-width: 100%;
   font-family: var(--font-family);
   padding: 50px;
   border: 2px solid var(--team-color);
-  border-width: 0px 0px 2px 0px;
+  border-width: 0px 0px 5px 0px;
+}
+
+.categories .heading {
+  text-transform: uppercase;
+  font-size: 85px;
+  padding-left: 35px;
+  line-height: 61px;
+  font-weight: 100;
+  color: var(--team-color);
+  letter-spacing: 0px;
 }
 
 .categories .author {
@@ -68,20 +80,45 @@
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
+  font-family: var(--font-family);
+  font-weight: 100;
+  color: #4a4747;
 }
 
-.categories .heading {
+.categories .author .developer {
+  padding-left: 5px;
+  color: var(--team-color);
+  font-weight: 200;
+  text-decoration: underline;
+  cursor: default;
+  letter-spacing: -2px;
+}
+
+.categories .player-categories {
+  list-style-type: none;
   text-transform: uppercase;
-  font-size: 80px;
-  padding: 20px;
-  line-height: 61px;
-  font-weight: 700;
-  letter-spacing: 0px;
+  padding: 35px;
+  font-size: 23px;
 }
 
-.categories .control {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.categories .player-categories hr {
+  display: inline;
+  width: 10px;
+  margin: 10px;
 }
+
+.categories .player-categories li {
+  display: inline;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.categories .player-categories li:hover {
+  color: var(--team-color);
+  text-decoration: underline;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+/*========================== PLAYER TILES SECTION CONTAINING ALL NEW BUEA FC PLAYER INFORMATION FROM  ===========================*/
 /*# sourceMappingURL=players.css.map */
