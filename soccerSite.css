@@ -13,6 +13,7 @@
   --color2: #000000;
   --color3: white;
   --font-family: 'Sofia Sans Semi Condensed',sans-serif;
+  --box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /*===========================
@@ -35,7 +36,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-radius: 0 0 30px 30px;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
   /*======================== LOGIN BUTTON and  AUTHOR LOGO ============================*/
 }
 
