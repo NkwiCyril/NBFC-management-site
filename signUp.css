@@ -13,6 +13,7 @@
   --color2: #000000;
   --color3: white;
   --font-family: 'Sofia Sans Semi Condensed',sans-serif;
+  --box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .login-header {
@@ -76,7 +77,7 @@
   font-size: 20px;
   color: var(--color3);
   width: 400px;
-  height: 650px;
+  height: 600px;
   background: var(--color2);
   border-radius: 10px;
   top: 50%;
@@ -88,6 +89,8 @@
           box-sizing: border-box;
   padding: 70px 30px;
   margin-top: 75px;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
 }
 
 .login-section2 .loginBox .Logo {
