@@ -196,6 +196,7 @@
   margin-bottom: 30px;
   -webkit-box-shadow: var(--box-shadow);
           box-shadow: var(--box-shadow);
+  cursor: pointer;
 }
 
 #veterans .players .player-card i {
