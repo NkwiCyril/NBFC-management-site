@@ -17,6 +17,92 @@
   --box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+/*============== NAVIGATION SECTION ================*/
+.nav-bar {
+  margin: 0px auto;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: var(--team-color);
+  color: var(--color3);
+  font-family: var(--font-family);
+  font-size: 35px;
+  font-weight: 400;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  /*======================== LOGIN BUTTON and  AUTHOR LOGO ============================*/
+}
+
+.nav-bar .logo {
+  width: 110px;
+  margin-left: -70px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 10px 0px;
+}
+
+.nav-bar .nav-pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 100px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  list-style: none;
+  margin: auto 30px;
+  color: var(--default-font-color);
+  letter-spacing: 0px;
+}
+
+.nav-bar .nav-pages li {
+  padding: 0px 10px;
+}
+
+.nav-bar .nav-pages li:hover {
+  text-decoration: underline;
+}
+
+.nav-bar .nav-pages li a {
+  text-decoration: none;
+  color: var(--default-font-color);
+}
+
+.nav-bar .login-author {
+  background-color: var(--default-font-color);
+  margin: 20px;
+}
+
+.nav-bar form {
+  margin: auto 0;
+}
+
+.nav-bar form .login {
+  width: 100px;
+  height: 50px;
+  background-color: var(--team-color);
+  color: var(--default-font-color);
+  font-family: var(--font-family);
+  font-size: 30PX;
+  border: var(--default-font-color) solid 2px;
+  border-radius: 25px;
+}
+
+.nav-bar form .login:hover {
+  background-color: var(--color3);
+  color: var(--hover-color);
+}
+
 .header {
   width: 100%;
 }
@@ -68,7 +154,7 @@
 }
 
 /*============================================== PLAYER CATEGORIES =======================================*/
-/*====================================HEADER SECTION CONTAINING THE NAVIGATION ===========================*/
+/*==================================== HEADER SECTION CONTAINING THE NAVIGATION ===========================*/
 .nav-categories {
   width: 100%;
   height: 199px;
