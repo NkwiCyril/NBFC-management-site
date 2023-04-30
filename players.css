@@ -19,7 +19,6 @@
 
 /*============== NAVIGATION SECTION ================*/
 .nav-bar {
-  margin: 0px auto;
   position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -39,16 +38,14 @@
 }
 
 .nav-bar .logo {
-  width: 110px;
-  margin-left: -70px;
+  width: 100px;
+  margin-left: 0px;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
   padding: 10px 0px;
+  margin-right: 100px;
 }
 
 .nav-bar .nav-pages {
@@ -66,11 +63,13 @@
 }
 
 .nav-bar .nav-pages li {
-  padding: 0px 10px;
+  padding: 0px 17px;
 }
 
 .nav-bar .nav-pages li:hover {
-  text-decoration: underline;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  border-bottom: 5px solid var(--color3);
 }
 
 .nav-bar .nav-pages li a {
@@ -93,12 +92,14 @@
   background-color: var(--team-color);
   color: var(--default-font-color);
   font-family: var(--font-family);
-  font-size: 30PX;
+  font-size: 30px;
   border: var(--default-font-color) solid 2px;
   border-radius: 25px;
 }
 
 .nav-bar form .login:hover {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
   background-color: var(--color3);
   color: var(--hover-color);
 }
@@ -126,29 +127,18 @@
 }
 
 .header .login-section1 .welcome .image {
-  border-radius: 50%;
-  width: 100px;
-  margin-bottom: 2px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: none;
 }
 
 @media only screen and (max-width: 726px) {
-  .login-header {
+  .header {
     width: 100%;
   }
-  .login-header .login-section1 {
+  .header .login-section1 {
     height: 90px;
     background-color: var(--team-color);
   }
-  .login-header .login-section1 .welcome img {
+  .header .login-section1 .welcome img {
     display: none;
   }
 }
