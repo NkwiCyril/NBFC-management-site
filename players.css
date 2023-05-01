@@ -186,12 +186,17 @@
 }
 
 .nav-categories .player-categories li {
-  display: inline;
+  display: inline-block;
   padding: 10px;
   cursor: pointer;
 }
 
-.nav-categories .player-categories li:hover {
+.nav-categories .player-categories li a {
+  text-decoration: none;
+  color: var(--color2);
+}
+
+.nav-categories .player-categories li a:hover {
   color: var(--team-color);
   font-weight: 300;
   border-bottom: 10px solid var(--team-color);
