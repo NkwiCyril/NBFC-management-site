@@ -49,7 +49,7 @@
             padding: 0px 17px;
             &:hover{
                 transition: var(--transition);
-                border-bottom: 5px solid var(--color3);
+                text-decoration: underline;
             }
             a{
                 text-decoration: none;
@@ -62,7 +62,8 @@
     
     .login-author{
         background-color: var(--default-font-color);
-        margin: 20px;
+        height: 40px;
+        margin: auto 20px;
     }
     form{
         margin: auto 0;
@@ -72,12 +73,12 @@
                 background-color: var(--color3);
                 color: var(--hover-color);
             }
-        width: 100px;
+        width: 80px;
         height: 50px;
         background-color: var(--team-color);
         color: var(--default-font-color);
         font-family: var(--font-family);
-        font-size: 30px;
+        font-size: 20px;
         border: var(--default-font-color) solid 2px;
         border-radius: 25px;
         } 
@@ -195,9 +196,9 @@
     }  
 }
 /*================================================================================================================================*/
-/*========================== PLAYER TILES SECTION CONTAINING ALL NEW BUEA FC PLAYER INFORMATION FROM  ===========================*/
+/*========================== PLAYER TILES SECTION CONTAINING ALL NEW BUEA FC PLAYER INFORMATION   ===========================*/
 /*==============================================================================================================================*/
-#veterans{
+#veterans,#new-signing,#on-loan,#young-boys{
     width: 100%;
     font-family: var(--font-family);
     padding-left: 120px;
@@ -241,6 +242,6 @@
             }
         }
     }
-
-        
 }
+
+
