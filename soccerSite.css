@@ -22,7 +22,6 @@
 
 /*================================== NAVIGATION SECTION ====================================*/
 .nav-bar {
-  margin: 0px auto;
   position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -42,16 +41,14 @@
 }
 
 .nav-bar .logo {
-  width: 110px;
-  margin-left: -70px;
+  width: 100px;
+  margin-left: 0px;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
   padding: 10px 0px;
+  margin-right: 100px;
 }
 
 .nav-bar .nav-pages {
@@ -69,10 +66,12 @@
 }
 
 .nav-bar .nav-pages li {
-  padding: 0px 10px;
+  padding: 0px 17px;
 }
 
 .nav-bar .nav-pages li:hover {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
   text-decoration: underline;
 }
 
@@ -107,6 +106,7 @@
   transition: var(--transition);
   background-color: var(--color3);
   color: var(--hover-color);
+  cursor: pointer;
 }
 
 /*=========================================================================================================================================================

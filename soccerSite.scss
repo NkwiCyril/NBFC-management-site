@@ -19,7 +19,6 @@
 
 /*================================== NAVIGATION SECTION ====================================*/
 .nav-bar{
-    margin: 0px auto;
     position: fixed;
     display: flex;
     width: 100%;
@@ -34,12 +33,12 @@
     //TEAM LOGO AND NAVIGATION TOOLS TO ACCESS DIFFERENT CONTENT
 
     .logo{
-        width: 110px;
-        margin-left: -70px;
+        width: 100px;
+        margin-left: 0px;
         border-radius: 50%;
         display: flex;
-        justify-content: space-evenly;
         padding: 10px 0px;
+        margin-right: 100px;
     }
     .nav-pages{
         display: flex;
@@ -50,8 +49,9 @@
         color: var(--default-font-color);
         letter-spacing: 0px;
         li{
-            padding: 0px 10px;
+            padding: 0px 17px;
             &:hover{
+                transition: var(--transition);
                 text-decoration: underline;
             }
             a{
@@ -75,6 +75,7 @@
                 transition: var(--transition);
                 background-color: var(--color3);
                 color: var(--hover-color);
+                cursor: pointer;
             }
         width: 80px;
         height: 50px;
@@ -118,9 +119,9 @@
             }    
         }
 
-.team-content{
+// .team-content{
 
-}
+// }
 
 
 
